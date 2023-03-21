@@ -15,6 +15,8 @@ class Install extends AbstractInstall
             ->text('value')
             ->dateTime('insert_date_time')->default(Value::NOW)->index()
             ->execute();
+
+        return true;
     }
 
     protected function safeUninstall(): bool
@@ -22,5 +24,7 @@ class Install extends AbstractInstall
         if ($connection->hasTable('log')) {
             $this->connection->dropTable('log');
         }
+
+        return true;
     }
 }
