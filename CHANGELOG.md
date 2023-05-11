@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.3 - 2023-05-11
+
+### Fixed
+
+- Log mapper adaptor will no longer be overriden if already set.
+
 ## 1.0.2 - 2023-04-02
 
 ### Fixed
