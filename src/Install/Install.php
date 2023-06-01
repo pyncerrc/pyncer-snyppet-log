@@ -12,7 +12,7 @@ class Install extends AbstractInstall
             ->serial('id')
             ->string('level', 25)->index()
             ->text('message')
-            ->text('value')
+            ->text('context')
             ->dateTime('insert_date_time')->default(Value::NOW)->index()
             ->execute();
 

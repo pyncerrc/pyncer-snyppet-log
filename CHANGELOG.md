@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.4 - 2023-06-01
+
+### Fixed
+
+- Fixed database field 'context' being created as 'value'.
+
 ## 1.0.3 - 2023-05-11
 
 ### Fixed
