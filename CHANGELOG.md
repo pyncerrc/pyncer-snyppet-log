@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.5 - 2023-03-14
+
+### Fixed
+
+- Changed database field 'context' to be nullable.
+
 ## 1.0.4 - 2023-06-01
 
 ### Fixed
