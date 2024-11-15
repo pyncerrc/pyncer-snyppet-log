@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.0 - Unreleased
+
+### Added
+
+- Added support for initializing a DatabaseLogger to take advantage of the new GroupLogger.
+
 ## 1.0.5 - 2023-03-14
 
 ### Fixed

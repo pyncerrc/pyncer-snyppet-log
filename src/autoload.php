@@ -6,6 +6,6 @@ SnyppetManager::register(new Snyppet(
     'log',
     dirname(__DIR__),
     [
-        'initialize' => ['Initialize']
+        'initialize' => ['Initialize', 'InitializeLogger']
     ],
 ));
