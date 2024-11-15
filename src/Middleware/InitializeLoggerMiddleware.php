@@ -1,5 +1,5 @@
 <?php
-namespace Pyncer\Snyppet\Sentry\Middleware;
+namespace Pyncer\Snyppet\Log\Middleware;
 
 use Psr\Http\Message\ResponseInterface as PsrResponseInterface;
 use Psr\Http\Message\ServerRequestInterface as PsrServerRequestInterface;
