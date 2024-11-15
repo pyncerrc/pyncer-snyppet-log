@@ -1,5 +1,5 @@
 <?php
-use Pyncer\Snyppet\Snyppet;
+use Pyncer\Snyppet\Log\Snyppet;
 use Pyncer\Snyppet\SnyppetManager;
 
 SnyppetManager::register(new Snyppet(

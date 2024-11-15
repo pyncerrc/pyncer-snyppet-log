@@ -17,7 +17,7 @@ class Snyppet extends BaseSnyppet
     {
         if ($class === InitializeLoggerMiddleware::class) {
             return new $class(
-                enabled: PYNCER_LOG_LOGGER_ENABLED,
+                enabled: PYNCER_LOG_ENABLED,
             );
         }
 
