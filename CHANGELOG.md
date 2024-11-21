@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.1 - Unreleased
+
+### Changed
+
+- Updated to use forgeMiddleware function.
+
 ## 1.1.0 - 2024-11-15
 
 ### Added
