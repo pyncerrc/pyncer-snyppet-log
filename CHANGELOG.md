@@ -5,6 +5,7 @@
 ### Changed
 
 - Updated to use forgeMiddleware function.
+- Updated psr/http-message to 2.0.
 
 ## 1.1.0 - 2024-11-15
 
